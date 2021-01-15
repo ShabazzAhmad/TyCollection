@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- favicon link here-->
+     <link rel="shortcut icon" href="photo/favicon.png" type="image/x-icon">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="bootsrap plugin/bootstrap-css.css">
+      <!--fonts awosome icons link-->
+     <link rel="stylesheet" href="bootsrap plugin/font-awesome-all.css">
+      <!--Font awesome file-->
+     <link rel="stylesheet" href="D:/Users/User PC/Desktop/code/new bootstrap/my web pages/my BTSP web II/css/all.min.css">
+      <!-- link meta tag ends here-->
+    <title>Document</title>
+
+    <style>
+    
+    nav {
+    background-color: #000000d0;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    color:#fff !important;
+    font-weight: bold;
+
+}
+
+.nav-item {
+    color: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+    
+    
+    
+    
+    
+    .site-slogan{
+	background-image: url('photo1.jpeg');
+	background-attachment: fixed;
+	background-size: cover;
+	height: 30rem;
+}
+
+.site-title, .site-desc{
+  color: teal;
+	font-family: 'righteous';
+}
+
+.site-title{
+	margin-top: 30%;
+	margin-bottom: 6%;
+	font-size: 50px;
+}
+
+.site-desc{
+	font-size: 14px;
+	padding-left: 15%;
+	margin-bottom: 2rem;
+}
+
+.siite-btn1{
+	margin-left: 19%;
+	background-color: black;
+	color: white;
+}
+
+.siite-btn2{
+	background-color: white;
+}
+
+.siite-btn1, .siite-btn2{
+	margin-top: 5%;
+	margin-bottom: 50%;
+}
+
+
+/* section-2 */
+
+.section-2{
+	background-color: #262626;
+/*	background-size: cover;
+	background-attachment: fixed;*/
+	height: 15rem;
+}
+
+.section-2 .heading-1{
+/*	margin-top: 20%;
+	margin-bottom: 4%; */
+	font-family: 'righteous', cursive;
+	width: 80%;
+	color: whitesmoke;
+}
+
+.section-2 .para{
+	width: 80%;
+	font-family: 'ubuntu', sans-serif;
+	color: whitesmoke;
+/*	margin-bottom: 7%;
+}
+
+.section-2 .btn{
+	margin-bottom: 15%;
+	width: 30%;
+	padding: 3% 5%;*/
+}
+
+.newsletterE-Mbox{
+  border-width: 1px;
+  background-color: #42583e;
+  border-style: solid;
+  border-color: rgba(var(--brde,163,217,246),var(--alpha-brde,1));
+}
+
+/*stats area*/
+
+.stats-area {
+    background-image: url('photo2.jpeg');
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    color: #696969;
+}
+
+.stats-area::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #696969, transparent);
+    z-index: -1;
+}
+
+.header2{
+  font-family: 'audiowide', cursive;
+}
+
+.para2{
+  font-family: 'poppins', sans-serif;
+}
+
+    
+/*footer    */
+$link-light-grey: #6c757d;
+$primary-orange: #fec503; //before: fed136
+$footer-background-light-grey: #212529;
+$footer-background-grey: #1a1d20;
+$social-buttons-circle-dark-grey: #1a1d20;
+
+.col-md-4:nth-child(even) {
+  // background: blue;
+}
+.col-md-4:nth-child(odd) {
+  // background: red;
+}
+
+a {
+  color: $link-light-grey;
+}
+a:hover {
+  color: $primary-orange;
+  text-decoration: none;
+}
+
+::selection {
+  background: $primary-orange;
+  text-shadow: none;
+}
+
+footer {
+  padding: 2rem 0;
+  background-color: #212529;
+  // .container .row:not(:last-child) {
+  //   padding-bottom: 2rem;
+  // }
+}
+
+.footer-column:not(:first-child) {
+    padding-top: 2rem;
+    @media (min-width: 768px) {
+      padding-top: 0rem;
+    }
+  }
+
+.footer-column {
+  text-align: center;
+  //border: red solid 1px;
+  .nav-item {
+    .nav-link {
+      padding: 0.1rem 0;
+    }
+    span.nav-link {
+      color: $link-light-grey;
+    }    
+    
+    
+    
+    
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+
+      <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+       <div class="container-fluid">
+          <a href="#" class="navbar-brand"><img src="screenshot_20210113-013443.png" class="img-fluid"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+      
+          </button>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="nav-item active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a href="#">About us</a></li>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">shirt</a></li>
+              <li><a href="#">Pants</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Fragrance & Deodarant</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Sneakers</a></li>
+            </ul>
+          </li>
+        </ul>
+        </div>
+        </div>
+</nav>
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+           <div class="col-md-6">
+            <p>   <-- jQuery first, then Popper.js, then Bootstrap JS--><
+                src="D:/Users/User PC/Desktop/code/new bootstrap/jquery-3.4.1.slim.js">ript>
+                src="D:/Users/User  PC/Desktop/code/new bootstrap/popper.min.js">cript>
+                 src="D:/Users/User PC/Desktop/code/new bootstrap/bootstrap-js.js">ipt>
+               </p>
+           </div>
+        </div>
+    </div>
+
+
+<!-- SIte Slogan-->
+
+<div class="container-fluid p-0">
+  <div class="site-slogan">
+    <div class="d-flex justify-content-center">
+      <div class="d-flex flex-column">
+        <h1 class="site-title text-center">TY Collection</h1> 
+        <p class="site-desc text-center">Quality, Style & Affordable</p>
+         
+        <div class="d-flex flex-row justify-content-center">
+          <input type="button" value="Sign up" class="btn site-btn1 px-4 py-3 mr-4 btn-dark">
+          <input type="button" value="Login" class="btn site-btn2 px-4 py-3 mr-4 btn-light"> 
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SIte Slogan ends-->
+
+<!-- About us section-->
+
+<div class="contain-fluid section-2">
+  <div class="row">
+  <!--newslatter container starts-->
+
+  <div class="col-sm-12 col-md-8">
+    <div class="d-flex align-item-start p-2">
+      <div class="d-flex flex-row ml-4">
+        <h1 class="heading-1">Newsletter</h1>
+        <input type="email" name="email-address" placeholder="email" class="newsletterE-Mbox para m-2">
+        <button type="submit" class="btn btn-primary d-inline para m-2">Submit</button>
+
+      </div>
+    </div>
+  </div>
+  <!--newslatter container ends-->
+  <!--Opening Hours container starts-->
+  <div class="col-sm-12 col-md-4">
+    <div class="d-flex align-item-end p-2">
+      <div class="d-flex flex-column ml-4">
+        <h1 class="heading-1">Opening Hours</h1>
+        <p class="para">Monday - Saturday: 09:00 am - 7:30 pm</p>
+      </div>
+    </div>
+  </div>
+  <!--Opening Hours container ends-->
+</div>
+</div>
+<!-- About us section ends-->
+
+<!-- This is the about section II-->
+      <div class="stats-area section-padding" id="stats">
+        <div class="container">
+
+          <h2 class="header2">About TY Collection</h2>
+          <h4>Style Meets Service</h4>
+          <p class="para2"></p>
+          
+
+          Located in the heart of San Francisco , TY Collection is a cherished Clothing Shop that is proud to have a family of loyal customers who return time and time again for more of their favorites.
+          Founded in 2000, we sell high quality, affordable items that you are sure to love.
+
+          We add new styles on a regular basis, so no matter how often you visit, you’ll always find something new.
+          Visit us in person to experience our incredible customer service and runway-inspired products and enjoy the TY Collection difference for yourself.
+        </div>
+      </div>
+     <!--footer-->
+     <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 footer-column">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <span class="footer-title">Product</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Product 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Product 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Plans & Prices</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Frequently asked questions</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 footer-column">
+        <ul class="nav flex-column">
+
+
+     <!-- jQuery first, then Popper.js, then Bootstrap JS-->
+    <script src="bootsrap plugin/jquery-3.4.1.slim.js"></script>
+    <script src="bootsrap plugin/popper.min.js"></script>
+    <script src="bootsrap plugin/bootstrap-js.js"></script>
+</body>
+</html>
