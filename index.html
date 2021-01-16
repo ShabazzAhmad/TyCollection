@@ -155,57 +155,40 @@
 
     
 /*footer    */
-$link-light-grey: #6c757d;
-$primary-orange: #fec503; //before: fed136
-$footer-background-light-grey: #212529;
-$footer-background-grey: #1a1d20;
-$social-buttons-circle-dark-grey: #1a1d20;
-
-.col-md-4:nth-child(even) {
-  // background: blue;
-}
-.col-md-4:nth-child(odd) {
-  // background: red;
-}
-
-a {
-  color: $link-light-grey;
-}
-a:hover {
-  color: $primary-orange;
-  text-decoration: none;
-}
-
-::selection {
-  background: $primary-orange;
-  text-shadow: none;
-}
-
-footer {
-  padding: 2rem 0;
-  background-color: #212529;
-  // .container .row:not(:last-child) {
-  //   padding-bottom: 2rem;
-  // }
-}
-
-.footer-column:not(:first-child) {
+    
+/* footer*/   
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
     padding-top: 2rem;
-    @media (min-width: 768px) {
-      padding-top: 0rem;
-    }
-  }
+}
 
-.footer-column {
-  text-align: center;
-  //border: red solid 1px;
-  .nav-item {
-    .nav-link {
-      padding: 0.1rem 0;
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer a{
+    color: #d5d5d5;
+}
+
+hr.light-100{
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+
+/*---media Queries----*/
+@media (max-width: 992px){
+    .social a{
+        font-size: 4em;
+        padding: 2rem;
     }
-    span.nav-link {
-      color: $link-light-grey;
-    }    
+}    
     
     
     
@@ -366,36 +349,45 @@ footer {
         </div>
       </div>
      <!--footer-->
-     <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 footer-column">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <span class="footer-title">Product</span>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Product 1</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Product 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Plans & Prices</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Frequently asked questions</a>
-          </li>
-        </ul>
+     <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img src="img/Screenshot_20210113-013443.png" class="logo">
+          <hr class="light">
+          <p>(+231)77-066-7454</p>
+          <p>ahmadsow101@gmail.com</p>
+          <p>17<sup>th</sup> Street, Sinkor</p>
+          <p>Monrovia, Liberia</p>
+        </div>
+        <div class="col-md-4">
+          <hr class="light">
+          <h5>Working hours</h5>
+          <hr class="light">
+          <p>Monday: 8am-5pm</p>
+          <p>Saturday: 10am-4pm</p>
+          <p>Sunday: Close</p>
+        </div>
+        <div class="col-md-4">
+          <hr class="light">
+          <h5>Services Area</h5>
+          <hr class="light">
+          <p>Air Field, Sinkor</p>
+          <p>Clara Town</p>
+          <p>Duport Road</p>
+          <p>Brewsville</p>
+        </div>
       </div>
-      <div class="col-md-4 footer-column">
-        <ul class="nav flex-column">
+      <div class="col-12 text-center">
+        <hr class="light-100">
+        <h5>&copy; Malcolm-X Production</h5>
+      </div>
+    </div>
 
 	
-		
+		<!--
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-
+-->
      <!-- jQuery first, then Popper.js, then Bootstrap JS-->
     <script src="jquery-3.4.1.slim.js"></script>
     <script src="popper.min.js"></script>
